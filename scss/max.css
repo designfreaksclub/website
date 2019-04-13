@@ -1,0 +1,78 @@
+body {
+    font-family: Circular Std;
+    font-size: 13px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+.bodysection {
+    font-family: Circular Std;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.48px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+.bodyschedule {
+    font-family: Bluu Next;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+.bodymenu {
+    font-family: Circular Std;
+    font-size: 19px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+
+.buttonhover {
+    font-family: Circular Std;
+    font-size: 13px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+button {
+    font-family: Larish Neue;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: Circular Std;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+h2 {
+    font-family: Larish Neue;
+    font-size: 40px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+h1 {
+    font-family: Larish Neue;
+    font-size: 69px;
+    color: #334798;
+    color: rgb(51, 71, 152);
+}
+
+primaryColour {
+    color: #F1CFDA;
+}
+
+secondaryColour {
+    color: #3044A4;
+}

@@ -1,0 +1,14 @@
+section {
+    height: 70vh;
+}
+
+button.blue-button{
+    font-family: $h1-font;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    color: $white;
+    background-color: $secondary-color;
+    border: 0px;
+    border-radius: 100px;
+    padding: 15px 25px;
+}

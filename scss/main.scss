@@ -1,11 +1,20 @@
-$primary-color: black;
+/******
+VARIABLES
+*******/
+$primary-color:#F1CFDA ;
+$secondary-color: #334798;
+$white: #FFFFFF;
 
-body {
-    background-color: $primary-color;
-    color: $primary-color
-}
+$base-font-size: 13px;
 
-h1 {
-    color: red;
-    text-align: left;
-}
+$line-height: 28px;
+
+$body-text: 'Circular-Std-Book';
+$h1-font: 'larish_neuesemibold';
+
+/******
+PARTIALS
+*******/
+@import "_layout.scss",
+        "_typography.scss",
+        "_components.scss";
