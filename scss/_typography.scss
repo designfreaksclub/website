@@ -5,7 +5,7 @@ body {
 }
 
 button.blue-button {
-    font-family: $h1-font;
+    font-family: $heading-font;
     font-size: 18px;
     letter-spacing: 0.54px;
 }
@@ -14,14 +14,22 @@ button.blue-button {
     HEADINGS
 ****************/
 
+h1, 
+h2 {
+    font-family: $heading-font;
+}
+
 h1 {
-    font-family: $h1-font;
     color: $secondary-color;
     font-size: 69px !important;
 }
 
+h2 {
+    font-size: 40px !important;
+}
+
 h3 {
-    font-family: $body-text;
+    font-family: $body-text !important;
     font-size: 25px !important;
     line-height: 28px;
     letter-spacing: 0.5px;
