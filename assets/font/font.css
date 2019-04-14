@@ -33,17 +33,15 @@
 }
 
 @font-face {
-    font-family: 'Circular-Std-Book';
-    src: url('./CircularStd-Book.woff2') format('woff2'),
-        url('./CircularStd-Book.woff') format('woff');
+    font-family: 'CircularStd-Book';
+    src: url('CircularStd-Book.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
-}
+  }
 
-@font-face {
-    font-family: 'Circular Std';
-    src: url('./CircularStd-Medium.woff2') format('woff2'),
-        url('./CircularStd-Medium.woff') format('woff');
-    font-weight: 500;
+  @font-face {
+    font-family: 'CircularStd-Medium';
+    src: url('CircularStd-Medium.eot') format('embedded-opentype');
+    font-weight: normal;
     font-style: normal;
-}
+  }
