@@ -1,5 +1,5 @@
 section {
-    height: 70vh;
+    height: 80vh;
 }
 
 button.blue-button{
@@ -11,4 +11,10 @@ button.blue-button{
     border: 0px;
     border-radius: 100px;
     padding: 15px 25px;
+}
+
+span.beside-button {
+    margin: 1em;
+    font-size: $base-font-size;
+    color: $secondary-color;
 }

@@ -6,17 +6,7 @@ html,
 body{
     margin: 0;
     padding: 0;
-}
-
-/***************
-    NAVBAR
-****************/
-
-.navbar-expand-lg .navbar-nav > .nav-item.nav-link {
-    padding: 2em;
-    &:last-child{
-        padding-right: 0em;
-    }
+    background-color: $primary-color !important;
 }
 
 
@@ -26,6 +16,43 @@ body{
 
 #globalWrapper {
     max-width: 1000px;
-	margin: auto;
+    margin: auto;
 }
+
+div.overlap{
+    margin-left: -34%;
+}
+
+section {
+    div.container {
+        height: 100%;
+        div.row {
+            height: 100%;
+        }
+    }
+}
+
+.align-self-top {
+    align-self: flex-start;
+}
+
+.align-self-bottom {
+    align-self: flex-end;
+}
+
+/***************
+    NAVBAR
+****************/
+
+.navbar-expand-lg .navbar-nav > .nav-item.nav-link {
+    padding: 2em;
+    font-family: $base-font-size;
+    color: $secondary-color;
+    &:last-child{
+        padding-right: 0em;
+    }
+}
+
+
+
 
