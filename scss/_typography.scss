@@ -4,6 +4,15 @@ body {
     font-size: $base-font-size !important;
 }
 
+button.blue-button {
+    font-family: $h1-font;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+}
+
+/***************
+    HEADINGS
+****************/
 
 h1 {
     font-family: $h1-font;
@@ -18,3 +27,4 @@ h3 {
     letter-spacing: 0.5px;
     color: $secondary-color;
 }
+

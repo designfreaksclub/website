@@ -3,18 +3,19 @@ section {
 }
 
 button.blue-button{
-    font-family: $h1-font;
-    font-size: 18px;
-    letter-spacing: 0.54px;
-    color: $white;
-    background-color: $secondary-color;
     border: 0px;
     border-radius: 100px;
-    padding: 15px 25px;
+    padding: 1em 3em;
+    color: $white;
+    background-color: $secondary-color;
 }
 
 span.beside-button {
-    margin: 1em;
-    font-size: $base-font-size;
     color: $secondary-color;
+    margin: 1em;
 }
+
+.padding {
+    padding: 1em 0;
+}
+
