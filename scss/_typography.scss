@@ -1,7 +1,7 @@
 body {
     font-family: $body-text;
-    color: $secondary-color !important;
-    font-size: $base-font-size !important;
+    color: $secondary-color;
+    font-size: $base-font-size;
 }
 
 button.blue-button {
@@ -16,23 +16,32 @@ button.blue-button {
 
 h1, 
 h2 {
-    font-family: $heading-font;
+    font-family: $heading-font ;
 }
 
 h1 {
-    color: $secondary-color;
-    font-size: 69px !important;
+    font-size: 69px ;
 }
 
 h2 {
-    font-size: 40px !important;
+    font-size: 40px ;
+    margin-bottom: 0.5em;
 }
 
 h3 {
-    font-family: $body-text !important;
-    font-size: 25px !important;
-    line-height: 28px;
+    font-size: 25px ;
+    line-height: 32px;
     letter-spacing: 0.5px;
-    color: $secondary-color;
 }
 
+h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+p.caption {
+    color: $white;
+    text-align: center;
+}

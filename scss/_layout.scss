@@ -6,37 +6,11 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: $primary-color !important;
+    background-color: $primary-color;
 }
 
-
-/***************
-    BODY
-****************/
-
-#globalWrapper {
-    max-width: 1000px;
-    margin: auto;
-}
-
-div.overlap {
-    margin-left: -34%;
-}
-
-section > div.container {
-    height: 100%;
-
-    div.row {
-        height: 100%;
-    }
-}
-
-.align-self-top {
-    align-self: flex-start;
-}
-
-.align-self-bottom {
-    align-self: flex-end;
+div[class^="col-sm"] {
+    padding: 0;
 }
 
 /***************
@@ -57,3 +31,47 @@ section > div.container {
         padding-right: 0em;
     }
 }
+
+
+/***************
+    BODY
+****************/
+
+#globalWrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+div.overlap {
+    margin-left: -17%;
+}
+
+section > div.container {
+    height: 100%;
+    padding: 0;
+    div.row {
+        padding-top: 10vh;
+        height: 100%;
+    }
+}
+
+.align-self-top {
+    align-self: flex-start;
+}
+
+.align-self-bottom {
+    align-self: flex-end;
+}
+
+.grid-interests {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3em 10em;
+    div.interest{
+        display: grid;
+        grid-template-rows: 5fr 2fr;
+        grid-gap: 0.5em;
+    }
+}
+
