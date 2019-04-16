@@ -17,6 +17,13 @@ div[class^="col-sm"] {
     NAVBAR
 ****************/
 
+header {
+    position: sticky;
+    background-color: #F1CFDA;
+    top: 0;
+    z-index: 100;
+}
+
 .pull-down {
     padding-top: 4em;
 }
@@ -47,24 +54,36 @@ div.overlap {
 }
 
 section {
+    height: 65vh;
+    // border: solid 1px red;
     div.container {
         height: 100%;
         padding: 0;
-
-        div.row {
+        div.row:not(.blue) {
             padding-top: 10vh;
             height: 100%;
         }
-    }
-
-    &.blue {
-        background-color: $secondary-color;
-        height: 30vh !important;
-
-        .row {
-            padding: 0 !important;
+        .blue {
+            background-color: $secondary-color;
+            // height: 15vh;
         }
     }
+    &.blue {
+        background-color: $secondary-color;
+    }
+    &.half {
+        height: 47vh;
+        .container .row:nth-child(1) {
+            height: 50%
+        }
+        .container .row:nth-child(2) {
+            height: 50%
+        }
+    }
+}
+
+.sponsor img {
+    max-height: 120px;
 }
 
 .align-self-top {
@@ -87,3 +106,4 @@ section {
         grid-gap: 0.5em;
     }
 }
+
