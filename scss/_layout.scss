@@ -17,6 +17,13 @@ div[class^="col-sm"] {
     NAVBAR
 ****************/
 
+header {
+    position: sticky;
+    background-color: #F1CFDA;
+    top: 0;
+    z-index: 100;
+}
+
 .pull-down {
     padding-top: 4em;
 }
