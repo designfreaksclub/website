@@ -13,6 +13,9 @@ button.blue-button{
     margin-top: 1em;
     color: $white;
     background-color: $secondary-color;
+    &:hover {
+        
+    }
 }
 
 span.beside-button {

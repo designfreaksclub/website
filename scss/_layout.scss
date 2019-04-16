@@ -46,12 +46,24 @@ div.overlap {
     margin-left: -17%;
 }
 
-section > div.container {
-    height: 100%;
-    padding: 0;
-    div.row {
-        padding-top: 10vh;
+section {
+    div.container {
         height: 100%;
+        padding: 0;
+
+        div.row {
+            padding-top: 10vh;
+            height: 100%;
+        }
+    }
+
+    &.blue {
+        background-color: $secondary-color;
+        height: 30vh !important;
+
+        .row {
+            padding: 0 !important;
+        }
     }
 }
 
@@ -68,10 +80,10 @@ section > div.container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 3em 10em;
-    div.interest{
+
+    div.interest {
         display: grid;
         grid-template-rows: 5fr 2fr;
         grid-gap: 0.5em;
     }
 }
-
