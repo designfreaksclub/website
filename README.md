@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://maxdellai.com/assets/img/dfc_readme_logo.gif" style="max-width:80%">
 </p>
-  <h2 align="center">The best design community meetup in Trento</h2>
+  <h2 align="center">The <i>freakiest</i> design community meetup in Trento</h2>
 <br>
 
 
