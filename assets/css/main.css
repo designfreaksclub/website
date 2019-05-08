@@ -1,0 +1,45 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+p.content-heading {
+  color: black;
+  font-size: 32px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+p.content-heading span.smaller {
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p.content-subheading {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.content.hello a.content-cta {
+  margin-top: 10px;
+  padding: 10px 14px;
+  color: white;
+  background-color:rgb(51, 70, 151);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+p.content-heading .shadow.is-success {
+  -webkit-box-shadow: inset 0 -6px 0 #FFCCCC;
+  box-shadow: inset 0 -6px 0 #FFCCCC;
+}
